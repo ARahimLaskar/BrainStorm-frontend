@@ -1,0 +1,51 @@
+.landingContainer {
+  font-family: inter;
+  line-height: 2;
+  display: flex;
+  width: 90%;
+  margin: 3rem auto;
+
+  min-height: 70vh;
+}
+.leftDiv {
+  flex: 10%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex: 70%;
+  gap: 2rem;
+}
+
+#filterIcon {
+  display: flex;
+
+  width: 90%;
+  margin: 0 auto;
+  gap: 20%;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  display: none;
+}
+.searchLinks {
+  cursor: pointer;
+}
+.searchLinks:hover {
+  font-weight: bold;
+}
+@media only screen and (max-width: 650px) {
+  .leftDiv {
+    display: none;
+  }
+  #filterIcon {
+    display: flex;
+  }
+}

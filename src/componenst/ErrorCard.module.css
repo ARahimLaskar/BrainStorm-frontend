@@ -1,0 +1,13 @@
+.errorDiv {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 25rem;
+  margin-bottom: 1rem;
+}
+.errorDiv img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
